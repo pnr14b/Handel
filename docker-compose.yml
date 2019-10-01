@@ -1,0 +1,7 @@
+version: '2.7'
+
+services:
+  device-registry:
+  build: .
+  volumes:  
+    - . : /usr/src/app
